@@ -40,24 +40,28 @@ there are several input functions
 ### Server
 ##### Tell the server how to assemble inputs into outputs
 #### 3 rules
-1. Save objects to display to output$
+1. Save objects to display to `output$`
 ```
 output$hist
 plotOutput("hist")
 ```
 
 2. Build objects to display with `render*()`
+
 ```
-server <- function(input, output) {
+server <- function(input, output) { 
   output$hist <- renderPlot({
   title <- "100 random normal values"
   hist(rnorm(100),main = title)
   })
 }
+```
+
 `render*()` function will create the type of output you wish to make
 ![image](https://github.com/lykkkk/shiny-study/raw/master/SS-3.png)
 
 3. Access `input` values with `input$`
+
 ```R
 serevr <- function(input, output) {
   output$hist <- renderPlot({
