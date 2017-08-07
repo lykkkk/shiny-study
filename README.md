@@ -31,7 +31,7 @@ sliderInput(inputId="num",
 ```
 
 there are several input functions
-![](/Users/LYK/Desktop/markdown/shiny study/1.png)
+![](https://github.com/lykkkk/shiny-study/blob/master/SS-1.png/SS-1.png)
 
 
 #### Outputs
