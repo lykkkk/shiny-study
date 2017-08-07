@@ -31,11 +31,7 @@ sliderInput(inputId="num",
 ```
 
 there are several input functions
-<<<<<<< HEAD
 ![image](https://github.com/lykkkk/shiny-study/raw/master/SS-1.png)
-=======
-![image](shiny-study/SS-1.png)
->>>>>>> ddb266e2e308a3124c63ad3b97c006d7c876d674
 
 
 #### Outputs
