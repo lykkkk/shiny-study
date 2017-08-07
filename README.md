@@ -31,11 +31,11 @@ sliderInput(inputId="num",
 ```
 
 there are several input functions
-![image](https://github.com/lykkkk/shiny-study/blob/master/SS-1.png/SS-1.png)
+![image](https://github.com/lykkkk/shiny-study/raw/master/SS-1.png)
 
 
 #### Outputs
-![](/Users/LYK/Desktop/markdown/shiny study/2.png)
+![image](https://github.com/lykkkk/shiny-study/raw/master/SS-2.png)
 
 ### Server
 ##### Tell the server how to assemble inputs into outputs
@@ -55,7 +55,7 @@ server <- function(input, output) {
   })
 }
 `render*()` function will create the type of output you wish to make
-![](/Users/LYK/Desktop/markdown/shiny study/3.png)
+![image](https://github.com/lykkkk/shiny-study/raw/master/SS-3.png)
 
 3. Access `input` values with `input$`
 ```R
@@ -89,13 +89,13 @@ shinyApp(ui = ui, server = server)
 ### What is Reactivity?
 
 `input$x` change, then `output$y` change
-![](/Users/LYK/Desktop/markdown/shiny study/4.png)
+![image](https://github.com/lykkkk/shiny-study/raw/master/SS-4.png)
 
 #### Begin with reactive values
 `render*()` builds reactive output to display in UI
 When notified that it is invalid, the object created by a `render*()` function will rerun the entire block of code associated with it
-![](/Users/LYK/Desktop/markdown/shiny study/5.png)
-![](/Users/LYK/Desktop/markdown/shiny study/6.png)
+![image](https://github.com/lykkkk/shiny-study/raw/master/SS-5.png)
+![image](https://github.com/lykkkk/shiny-study/raw/master/SS-6.png)
 
 1. `render*()` functions make objects to display<br>
 2. Always save the result to `output$` <br>
